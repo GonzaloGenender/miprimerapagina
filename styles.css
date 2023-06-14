@@ -1,0 +1,197 @@
+ body, ul {
+margin: 0;
+font-family: monospace;
+font-weight: bold;
+font-size: 20px;
+padding: 0;
+}
+
+
+/*
+.logo-title{ 
+    display: flex;
+}
+
+.logo-title img{ 
+    width: 40px;
+    height: 40px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.logo-title h3{ 
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+/*
+
+/* h1{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}*/
+
+  /*     # FONDO DE PANTALLA #      */
+
+  /*
+.container-portada{
+    width: 100%;
+    height: 400px;
+    background-image: url(futbol2.jpg);
+    background-size: 200%;
+    animation: movimiento 10s infinite linear alternate;
+    position: relative;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+*/
+
+img { max-width: 20%;
+}
+
+.img-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    margin: 30px;
+}
+
+p{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-formulario {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+  
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+button{
+    background-color:rgb(138, 206, 233);
+    color: rgb(5, 185, 29);
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+
+  /*     # BARRA DE NAVEGACION #      */
+  
+
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+    }
+    .img-container{
+      flex-direction: column;
+    }
+  }
+
